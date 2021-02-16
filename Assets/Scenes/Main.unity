@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -9446,12 +9446,12 @@ PrefabInstance:
     - target: {fileID: 4401863854545358135, guid: 6cfaadcb953af1c448a1b82b94f47442,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.683418
+      value: -36.19069
       objectReference: {fileID: 0}
     - target: {fileID: 4401863854545358135, guid: 6cfaadcb953af1c448a1b82b94f47442,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.740007
+      value: 5.7400036
       objectReference: {fileID: 0}
     - target: {fileID: 4401863855381985666, guid: 6cfaadcb953af1c448a1b82b94f47442,
         type: 3}
@@ -10165,6 +10165,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 902197058, guid: 79800e4b26a7dd44a8a003583829a5fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 902197058, guid: 79800e4b26a7dd44a8a003583829a5fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827721850519122364, guid: 79800e4b26a7dd44a8a003583829a5fa,
+        type: 3}
+      propertyPath: gradient.atime0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827721850519122364, guid: 79800e4b26a7dd44a8a003583829a5fa,
+        type: 3}
+      propertyPath: gradient.key0.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827721850519122364, guid: 79800e4b26a7dd44a8a003583829a5fa,
+        type: 3}
+      propertyPath: gradient.key1.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183986917864706342, guid: 79800e4b26a7dd44a8a003583829a5fa,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7183986919088421536, guid: 79800e4b26a7dd44a8a003583829a5fa,
         type: 3}
       propertyPath: m_RootOrder
