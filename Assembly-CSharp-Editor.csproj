@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Install Bolt\Editor\InstallBoltMenuItem.cs" />
     <Compile Include="Assets\Scripts\Editor\LightColorControllerEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\ScreenshotTaker.cs" />
     <Compile Include="Assets\Tilemap Extras\Editor\RuleTile\CustomRuleTileMenu.cs" />
@@ -272,6 +273,51 @@
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
       <HintPath>D:/unity2019.4学习/2_14/learns/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Graphs.Editor">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Core.Runtime">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Graphs.Runtime">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.Core.Runtime">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.Flow.Runtime">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="MiscUtil">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/MiscUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Platforms">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.Core.Editor">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="YamlDotNet">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Core.Editor">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.State.Editor">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.State.Runtime">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.State.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.Flow.Editor">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.16f1c1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
