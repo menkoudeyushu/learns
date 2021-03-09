@@ -1,4 +1,7 @@
 Temp/UnityLockfile
 *.bin
 Library
+temp
+*.backup
+
 
