@@ -446,44 +446,20 @@
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.16f1c1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>D:/unity2019.4学习/2_14/learns/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="Ludiq.Graphs.Editor">
-      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Ludiq.Core.Runtime">
-      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Ludiq.Graphs.Runtime">
-      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Antlr3.Runtime">
       <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolt.Core.Runtime">
-      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolt.Flow.Runtime">
-      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="MiscUtil">
-      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/MiscUtil.dll</HintPath>
-    </Reference>
-    <Reference Include="Ludiq.Platforms">
-      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll</HintPath>
     </Reference>
     <Reference Include="Bolt.Core.Editor">
       <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.Core.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Ionic.Zip">
-      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ionic.Zip.dll</HintPath>
+    <Reference Include="Bolt.Core.Runtime">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="YamlDotNet">
-      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/YamlDotNet.dll</HintPath>
+    <Reference Include="Bolt.Flow.Editor">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Ludiq.Core.Editor">
-      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll</HintPath>
+    <Reference Include="Bolt.Flow.Runtime">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Bolt.State.Editor">
       <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.State.Editor.dll</HintPath>
@@ -491,8 +467,32 @@
     <Reference Include="Bolt.State.Runtime">
       <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.State.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Bolt.Flow.Editor">
-      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll</HintPath>
+    <Reference Include="Ionic.Zip">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Core.Editor">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Core.Runtime">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Graphs.Editor">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Graphs.Runtime">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Platforms">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll</HintPath>
+    </Reference>
+    <Reference Include="MiscUtil">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/MiscUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="YamlDotNet">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Assets/Ludiq/Assemblies/YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>D:/unity2019.4学习/2_14/learns/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.16f1c1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
