@@ -78,7 +78,7 @@ OUT.color = IN.color;
 return OUT;
 }
 
-
+ // 可真鸡儿直接  用四个颜色 直接搞  result color  = a + b * cos(6.28318 * (c * gray + d)) 这个公式
 float4 Color_PreGradients(float4 rgba, float4 a, float4 b, float4 c, float4 d, float offset, float fade, float speed)
 {
 float gray = (rgba.r + rgba.g + rgba.b) / 3;
@@ -88,6 +88,7 @@ result.a = rgba.a;
 result.rgb = lerp(rgba.rgb, result.rgb, fade);
 return result;
 }
+
 float4 frag (v2f i) : COLOR
 {
 float4 _MainTex_1 = tex2D(_MainTex, i.texcoord);

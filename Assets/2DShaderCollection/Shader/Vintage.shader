@@ -74,7 +74,7 @@ OUT.color = IN.color;
 return OUT;
 }
 
-
+// red color.a +source  color * red.color + ... 
 float4 ColorFilters(float4 rgba, float4 red, float4 green, float4 blue, float fade)
 {
 float3 c_r = float3(red.r, red.g, red.b);

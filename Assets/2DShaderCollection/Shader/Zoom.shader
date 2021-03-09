@@ -80,7 +80,7 @@ OUT.color = IN.color;
 return OUT;
 }
 
-
+// 
 float2 ZoomUV(float2 uv, float zoom, float posx, float posy)
 {
 float2 center = float2(posx, posy);
@@ -89,6 +89,7 @@ uv = uv * zoom;
 uv += center;
 return uv;
 }
+// 先对寄存器UV进行变化，在去采样？
 float4 frag (v2f i) : COLOR
 {
 float2 ZoomUV_1 = ZoomUV(i.texcoord,ZoomUV_Zoom_1,ZoomUV_PosX_1,ZoomUV_PosY_1);

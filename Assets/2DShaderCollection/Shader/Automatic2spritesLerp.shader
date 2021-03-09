@@ -9,7 +9,7 @@ Shader "2DShaderCollection/Automatic2spritesLerp"
 {
 Properties
 {
-[PerRendererData] _MainTex("Sprite Texture", 2D) = "white" {}
+ _MainTex("Sprite Texture", 2D) = "white" {}
 _NewTex_1("NewTex_1(RGB)", 2D) = "white" { }
 _AutomaticLerp_Speed_1("_AutomaticLerp_Speed_1", Range(0, 1)) = 1
 _SpriteFade("SpriteFade", Range(0, 1)) = 1.0

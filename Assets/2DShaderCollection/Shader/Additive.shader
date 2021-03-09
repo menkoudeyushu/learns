@@ -11,7 +11,7 @@ _SpriteFade("SpriteFade", Range(0, 1)) = 1.0
 
 // required for UI.Mask
 [HideInInspector]_StencilComp("Stencil Comparison", Float) = 8
-[HideInInspector]_Stencil("Stencil ID", Float) = 0
+[HideInInsApector]_Stencil("Stencil ID", Float) = 0
 [HideInInspector]_StencilOp("Stencil Operation", Float) = 0
 [HideInInspector]_StencilWriteMask("Stencil Write Mask", Float) = 255
 [HideInInspector]_StencilReadMask("Stencil Read Mask", Float) = 255

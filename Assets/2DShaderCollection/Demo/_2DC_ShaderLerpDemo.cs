@@ -13,7 +13,7 @@ public class _2DC_ShaderLerpDemo : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		Mul = BulletData.instance.brightness;
+		//Mul = BulletData.instance.brightness;
 	}
 	
 	// Update is called once per frame
