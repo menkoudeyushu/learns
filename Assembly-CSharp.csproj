@@ -258,6 +258,7 @@
     <None Include="Assets\2DShaderCollection\Shader\RoarDistortion.shader" />
     <None Include="Assets\2DShaderCollection\Shader\ColorDarkness.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.AddIn.Contract.xml" />
+    <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_2\Readme.txt" />
     <None Include="Assets\2DShaderCollection\Shader\Emboss.shader" />
     <None Include="Assets\2DShaderCollection\Shader\PixelExplosion.shader" />
     <None Include="Assets\2DShaderCollection\Shader\BreakingGlass.shader" />
@@ -276,6 +277,7 @@
     <None Include="Assets\崩坏\图量很大，可能有部分重复请理解，收集不易给个好评支持一下谢谢.txt" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Windows.Presentation.xml" />
+    <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_2\Shaders\IceShader01.shader" />
     <None Include="Assets\2DShaderCollection\Shader\OutlineEmpty.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Xml.xml" />
     <Reference Include="UnityEngine">
