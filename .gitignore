@@ -1,6 +1,6 @@
 Temp/UnityLockfile
 *.bin
-Library
+Library/
 temp
 *.backup
 
