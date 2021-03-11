@@ -65,14 +65,6 @@
   <ItemGroup>
     <Compile Include="Assets\2DShaderCollection\Demo\_2DC_ArrowSelection.cs" />
     <Compile Include="Assets\2DShaderCollection\Demo\_2DC_ShaderLerpDemo.cs" />
-    <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\CameraShakeSimpleScript.cs" />
-    <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\ParticleSystemController.cs" />
-    <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\ParticleSystemControllerEditor.cs" />
-    <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\ProjectileMoveScript.cs" />
-    <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\RotateToMouseScript.cs" />
-    <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\SaveParticleSystemScript.cs" />
-    <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\Serializables.cs" />
-    <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Scripts\SpawnProjectilesScript.cs" />
     <Compile Include="Assets\Help\Readme\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\CharacterAudio.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
@@ -104,7 +96,6 @@
     <None Include="Assets\2DShaderCollection\Shader\LiquidWave.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Security.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Framework.xml" />
-    <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Readme.txt" />
     <None Include="Assets\2DShaderCollection\Shader\Blur.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Core.xml" />
     <None Include="Assets\2DShaderCollection\Shader\DesintegrationPixel.shader" />
@@ -114,7 +105,6 @@
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Configuration.Install.xml" />
     <None Include="Assets\Ludiq\Assemblies\Bolt.Flow.Runtime.xml" />
     <None Include="Assets\Ludiq\Assemblies\Bolt.Core.Runtime.xml" />
-    <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\Additive_Scroll01.shader" />
     <None Include="Assets\2DShaderCollection\Shader\TurnLiquid.shader" />
     <None Include="Assets\Ludiq\Assemblies\Ludiq.Graphs.Runtime.xml" />
     <None Include="Assets\2DShaderCollection\Shader\BreakingMirror.shader" />
@@ -192,14 +182,12 @@
     <None Include="Assets\2DShaderCollection\Shader\CircleHole.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Messaging.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.AddIn.xml" />
-    <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\AdditiveMobile_Scroll01.shader" />
     <None Include="Assets\2DShaderCollection\Shader\InfiniteZoom.shader" />
     <None Include="Assets\2DShaderCollection\Shader\HologramParasiteTint.shader" />
     <None Include="Assets\2DShaderCollection\Shader\ColorRGB.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Linq.xml" />
     <None Include="Assets\2DShaderCollection\Shader\RetroCGA.shader" />
     <None Include="Assets\2DShaderCollection\Shader\HologramParasiteTintAdditive.shader" />
-    <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\AlphaBlendedMobile_Scroll01.shader" />
     <None Include="Assets\myFolder\ShaderGraph\FlowMap.shader" />
     <None Include="Assets\2DShaderCollection\Shader\DisolvePixel.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.DynamicData.Design.xml" />
@@ -232,11 +220,10 @@
     <None Include="Assets\2DShaderCollection\Shader\TurnFirePixel.shader" />
     <None Include="Assets\2DShaderCollection\Shader\BlurHQ.shader" />
     <None Include="Assets\2DShaderCollection\Shader\Holographic.shader" />
-    <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\Additive_EdgeSoft.shader" />
+    <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_2\Shaders\Legacy\AlphaBlended_EdgeSoft.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.xml" />
     <None Include="Assets\2DShaderCollection\Shader\DoodleDraw.shader" />
     <None Include="Assets\2DShaderCollection\Shader\ColorTint.shader" />
-    <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\AlphaBlended_EdgeSoft.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Deployment.xml" />
     <None Include="Assets\2DShaderCollection\Shader\ShinyFX.shader" />
     <None Include="Assets\2DShaderCollection\Shader\Threshold.shader" />
@@ -247,7 +234,6 @@
     <None Include="Assets\2DShaderCollection\Shader\Automatic2spritesLerp.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Services.xml" />
     <None Include="Assets\2DShaderCollection\Shader\Twist.shader" />
-    <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_1\Shaders\AlphaBlended_Scroll01.shader" />
     <None Include="Assets\2DShaderCollection\Shader\Glitch.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.DataSetExtensions.xml" />
     <None Include="Assets\2DShaderCollection\Shader\GhostClipping.shader" />
