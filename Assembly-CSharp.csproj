@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\OnScreenControls.cs" />
     <Compile Include="Assets\Scripts\ParallaxLayer.cs" />
     <Compile Include="Assets\Scripts\VisibleOnlyDuringNight.cs" />
+    <Compile Include="Assets\TestNode\TestMerge.cs" />
     <Compile Include="Assets\Tilemap Extras\RuleOverrideTile\RuleOverrideTile.cs" />
     <Compile Include="Assets\Tilemap Extras\RuleTile\RuleTile.cs" />
     <Compile Include="Assets\Unity Technologies\2D Sprite Shape\Extras\Scripts\ConformingSpline.cs" />
