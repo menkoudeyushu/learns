@@ -180,3 +180,379 @@ Cmd: preprocess
   insize=3867 outsize=429 ok=1
 Cmd: preprocess
   insize=4068 outsize=420 ok=1
+Cmd: preprocess
+  insize=3295 outsize=421 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=3697 outsize=419 ok=1
+Cmd: preprocess
+  insize=4475 outsize=419 ok=1
+Cmd: preprocess
+  insize=4307 outsize=419 ok=1
+Cmd: preprocess
+  insize=4283 outsize=419 ok=1
+Cmd: preprocess
+  insize=4292 outsize=419 ok=1
+Cmd: preprocess
+  insize=4480 outsize=419 ok=1
+Cmd: preprocess
+  insize=4285 outsize=419 ok=1
+Cmd: preprocess
+  insize=4502 outsize=421 ok=1
+Cmd: preprocess
+  insize=11170 outsize=920 ok=1
+Cmd: preprocess
+  insize=4048 outsize=501 ok=1
+Cmd: preprocess
+  insize=4466 outsize=490 ok=1
+Cmd: preprocess
+  insize=4683 outsize=493 ok=1
+Cmd: preprocess
+  insize=11359 outsize=992 ok=1
+Cmd: preprocess
+  insize=4048 outsize=501 ok=1
+Cmd: preprocess
+  insize=4249 outsize=493 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (90): 'TransformObjectToWorld': implicit truncation of vector type\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=3881 outsize=642 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10701 outsize=802 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=4358 outsize=617 ok=1
+Cmd: preprocess
+  insize=4048 outsize=501 ok=1
+Cmd: preprocess
+  insize=5006 outsize=491 ok=1
+Cmd: preprocess
+  insize=5223 outsize=493 ok=1
+Cmd: preprocess
+  insize=11947 outsize=992 ok=1
+Cmd: preprocess
+  insize=5028 outsize=491 ok=1
+Cmd: preprocess
+  insize=5245 outsize=493 ok=1
+Cmd: preprocess
+  insize=11969 outsize=992 ok=1
+Cmd: preprocess
+  insize=5013 outsize=490 ok=1
+Cmd: preprocess
+  insize=5230 outsize=493 ok=1
+Cmd: preprocess
+  insize=11954 outsize=992 ok=1
+Cmd: preprocess
+  insize=5077 outsize=491 ok=1
+Cmd: preprocess
+  insize=5294 outsize=493 ok=1
+Cmd: preprocess
+  insize=12018 outsize=992 ok=1
+Cmd: preprocess
+  insize=5011 outsize=491 ok=1
+Cmd: preprocess
+  insize=5228 outsize=493 ok=1
+Cmd: preprocess
+  insize=11952 outsize=992 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=4440 outsize=492 ok=1
+Cmd: preprocess
+  insize=5232 outsize=492 ok=1
+Cmd: preprocess
+  insize=5193 outsize=492 ok=1
+Cmd: preprocess
+  insize=5240 outsize=492 ok=1
+Cmd: preprocess
+  insize=5334 outsize=492 ok=1
+Cmd: preprocess
+  insize=5232 outsize=492 ok=1
+Cmd: preprocess
+  insize=5193 outsize=492 ok=1
+Cmd: preprocess
+  insize=5240 outsize=492 ok=1
+Cmd: preprocess
+  insize=5334 outsize=492 ok=1
+Cmd: preprocess
+  insize=5232 outsize=492 ok=1
+Cmd: preprocess
+  insize=5193 outsize=492 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=3546 outsize=496 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=3870 outsize=495 ok=1
+Cmd: preprocess
+  insize=4311 outsize=497 ok=1
+Cmd: preprocess
+  insize=4632 outsize=495 ok=1
+Cmd: preprocess
+  insize=4330 outsize=497 ok=1
+Cmd: preprocess
+  insize=4317 outsize=497 ok=1
+Cmd: preprocess
+  insize=4306 outsize=497 ok=1
+Cmd: preprocess
+  insize=4317 outsize=497 ok=1
+Cmd: preprocess
+  insize=4304 outsize=497 ok=1
+Cmd: preprocess
+  insize=4317 outsize=497 ok=1
+Cmd: preprocess
+  insize=4326 outsize=497 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=3631 outsize=497 ok=1
+Cmd: preprocess
+  insize=14421 outsize=10412 ok=1
+Cmd: preprocess
+  insize=13429 outsize=9928 ok=1
+Cmd: preprocess
+  insize=12467 outsize=9137 ok=1
+Cmd: preprocess
+  insize=13610 outsize=9726 ok=1
+Cmd: preprocess
+  insize=8124 outsize=4835 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=11952 outsize=992 ok=1
+Cmd: preprocess
+  insize=4249 outsize=493 ok=1
+Cmd: preprocess
+  insize=4048 outsize=501 ok=1
+Cmd: preprocess
+  insize=4048 outsize=501 ok=1
+Cmd: preprocess
+  insize=5228 outsize=493 ok=1
+Cmd: preprocess
+  insize=5011 outsize=491 ok=1
+Cmd: preprocess
+  insize=4048 outsize=501 ok=1
+Cmd: preprocess
+  insize=5193 outsize=492 ok=1
+Cmd: preprocess
+  insize=4326 outsize=497 ok=1
+Cmd: preprocess
+  insize=4632 outsize=495 ok=1
+Cmd: preprocess
+  insize=3631 outsize=497 ok=1
+Cmd: preprocess
+  insize=4048 outsize=501 ok=1
+Cmd: preprocess
+  insize=5011 outsize=491 ok=1
+Cmd: preprocess
+  insize=5228 outsize=493 ok=1
+Cmd: preprocess
+  insize=11952 outsize=992 ok=1
+Cmd: preprocess
+  insize=4048 outsize=501 ok=1
+Cmd: preprocess
+  insize=5193 outsize=492 ok=1
+Cmd: preprocess
+  insize=4326 outsize=497 ok=1
+Cmd: preprocess
+  insize=4632 outsize=495 ok=1
+Cmd: preprocess
+  insize=4048 outsize=501 ok=1
+Cmd: preprocess
+  insize=4249 outsize=493 ok=1
+Cmd: preprocess
+  insize=4229 outsize=573 ok=1
+Cmd: preprocess
+  insize=5192 outsize=562 ok=1
+Cmd: preprocess
+  insize=5409 outsize=565 ok=1
+Cmd: preprocess
+  insize=12141 outsize=1063 ok=1
+Cmd: preprocess
+  insize=4229 outsize=572 ok=1
+Cmd: preprocess
+  insize=5374 outsize=564 ok=1
+Cmd: preprocess
+  insize=4507 outsize=568 ok=1
+Cmd: preprocess
+  insize=4813 outsize=567 ok=1
+Cmd: preprocess
+  insize=4229 outsize=573 ok=1
+Cmd: preprocess
+  insize=4430 outsize=564 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (99): 'TransformObjectToWorld': implicit truncation of vector type\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=4199 outsize=642 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11411 outsize=802 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: preprocess
+  insize=4410 outsize=644 ok=1
+Cmd: preprocess
+  insize=5373 outsize=635 ok=1
+Cmd: preprocess
+  insize=5590 outsize=637 ok=1
+Cmd: preprocess
+  insize=12330 outsize=1136 ok=1
+Cmd: preprocess
+  insize=4410 outsize=645 ok=1
+Cmd: preprocess
+  insize=5555 outsize=636 ok=1
+Cmd: preprocess
+  insize=4688 outsize=639 ok=1
+Cmd: preprocess
+  insize=4994 outsize=639 ok=1
+Cmd: preprocess
+  insize=4410 outsize=645 ok=1
+Cmd: preprocess
+  insize=4611 outsize=637 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (101): 'TransformObjectToWorld': implicit truncation of vector type\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+  api=4 type=0 insize=4308 outsize=642 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11528 outsize=802 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=4720 outsize=761 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=4701 outsize=759 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=4397 outsize=644 ok=1
+Cmd: preprocess
+  insize=4410 outsize=645 ok=1
+Cmd: preprocess
+  insize=4741 outsize=641 ok=1
+Cmd: preprocess
+  insize=5283 outsize=641 ok=1
+Cmd: preprocess
+  insize=11966 outsize=1140 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=811 outsize=209 ok=1
+Cmd: preprocess
+  insize=12330 outsize=1136 ok=1
+Cmd: preprocess
+  insize=4611 outsize=637 ok=1
+Cmd: preprocess
+  insize=4410 outsize=645 ok=1
+Cmd: preprocess
+  insize=4410 outsize=645 ok=1
+Cmd: preprocess
+  insize=5590 outsize=637 ok=1
+Cmd: preprocess
+  insize=5373 outsize=635 ok=1
+Cmd: preprocess
+  insize=4410 outsize=644 ok=1
+Cmd: preprocess
+  insize=5555 outsize=636 ok=1
+Cmd: preprocess
+  insize=4688 outsize=639 ok=1
+Cmd: preprocess
+  insize=4994 outsize=639 ok=1
+Cmd: preprocess
+  insize=5283 outsize=641 ok=1
+Cmd: preprocess
+  insize=4410 outsize=645 ok=1
+Cmd: preprocess
+  insize=4397 outsize=644 ok=1
+Cmd: preprocess
+  insize=4397 outsize=644 ok=1
+Cmd: preprocess
+  insize=5283 outsize=641 ok=1
+Cmd: preprocess
+  insize=4410 outsize=645 ok=1
+Cmd: preprocess
+  insize=4410 outsize=644 ok=1
+Cmd: preprocess
+  insize=5373 outsize=635 ok=1
+Cmd: preprocess
+  insize=5590 outsize=637 ok=1
+Cmd: preprocess
+  insize=12330 outsize=1136 ok=1
+Cmd: preprocess
+  insize=4410 outsize=645 ok=1
+Cmd: preprocess
+  insize=5555 outsize=636 ok=1
+Cmd: preprocess
+  insize=4688 outsize=639 ok=1
+Cmd: preprocess
+  insize=4994 outsize=639 ok=1
+Cmd: preprocess
+  insize=4410 outsize=645 ok=1
+Cmd: preprocess
+  insize=4611 outsize=637 ok=1
+
+Quitting shader compiler process
