@@ -3,5 +3,7 @@ Temp/UnityLockfile
 Library/
 temp
 *.backup
+/Library
+*.log
 
 
