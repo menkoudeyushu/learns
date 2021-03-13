@@ -74,6 +74,7 @@
     <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_2\Scripts\UniqueProjectiles\RotateToMouseScript.cs" />
     <Compile Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_2\Scripts\UniqueProjectiles\SpawnProjectilesScript.cs" />
     <Compile Include="Assets\Help\Readme\Scripts\Readme.cs" />
+    <Compile Include="Assets\LauchBullet.cs" />
     <Compile Include="Assets\Scripts\CharacterAudio.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\GameplayTrigger.cs" />
