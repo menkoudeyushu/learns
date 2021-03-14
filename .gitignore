@@ -7,3 +7,6 @@ temp
 *.log
 
 
+.vs/learns/v16/Browse.VC.db-shm
+.vs/learns/v16/Browse.VC.db-wal
+.vs/learns/v16/Browse.VC.opendb

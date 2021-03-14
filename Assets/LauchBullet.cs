@@ -6,7 +6,7 @@ public class LauchBullet : MonoBehaviour
 { 
    //[SerializeField]
     public float speed = 50.0f;
-
+    // 用该 对象与 player 的距离来实现销毁？
     public Transform LauchPosition;
     public GameObject LauchObjct;
     private void Start()
@@ -17,4 +17,12 @@ public class LauchBullet : MonoBehaviour
     {
         Instantiate(LauchObjct, LauchPosition.position, LauchPosition.rotation);
     }
+
+
+
+
+
+
+
+
 }

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/GabrielAguiarProductions/Unique_Projectiles_Volume_2/Scene/UniqueProjectiles02_Demo2D.unity
+- path: Assets/myFolder/MyScene/FirstTestScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
