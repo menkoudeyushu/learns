@@ -45,6 +45,8 @@ public class PlayerBehavior : MonoBehaviour
 
     public bool CanMove { get; set; }
 
+    public float attack_rate = 1.0f;
+    private float next_fire = 0.0f;
 
     private void Start()
     {
@@ -66,13 +68,14 @@ public class PlayerBehavior : MonoBehaviour
 
         // Horizontal movement
         float moveHorizontal = 0.0f;
-
-        if (keyboard.aKey.isPressed)
+        // 
+        Debug.LogWarning(isAttack01ing);
+        if (keyboard.aKey.isPressed && !isAttack01ing)
             moveHorizontal = -1.0f;
-        else if (keyboard.dKey.isPressed)
+        else if (keyboard.dKey.isPressed && !isAttack01ing)
         {
             
-            moveHorizontal = 1.0f;;
+            moveHorizontal = 1.0f;
         }
         //else if (keyboard.dKey.wasReleasedThisFrame)
         //{
@@ -84,6 +87,7 @@ public class PlayerBehavior : MonoBehaviour
         //    moveHorizontal = 0.0f;
 
         //}
+       
         movementInput = new Vector2(moveHorizontal, 0);
 
         // Jumping input
@@ -124,7 +128,16 @@ public class PlayerBehavior : MonoBehaviour
         var horizontalSpeedNormalized = Mathf.Abs(velocity.x) / maxSpeed;
         animator.SetFloat(animatorRunningSpeed, horizontalSpeedNormalized);
     }
+/// <summary>
+///  跳跃时 可在空中切换方向
+///  
+/// 普通攻击时 有A/D 键会改变方向
+/// 技能释放时 是否可以 改变方向
+/// </summary>
 
+
+
+    // 在播放 动画时 按下方向键 
     private void UpdateDirection()
     {
         // Use scale to flip character depending on direction
@@ -137,22 +150,33 @@ public class PlayerBehavior : MonoBehaviour
             puppet.localScale = flippedScale;
         }
     }
-    // 肯能有多个 的攻击
+    // 可能有多个 的攻击
     private void UpdateAttack()
     {
-        if (attack01Input && !isAttack01ing)
+        //Debug.Log("time.time = "+Time.time);
+        //Debug.Log("next fire=" + next_fire);
+        if (attack01Input && !isAttack01ing && Time.time >next_fire)
         {
+            next_fire = Time.time + attack_rate;
             animator.SetTrigger(animatorAttack01Trigger);
             isAttack01ing = true;
             attack01Input = false;
+            Invoke("StopAttack01", 1.4f);
         }
-        else if(isAttack01ing)
-        {
-            isAttack01ing = false;
+        //else if(isAttack01ing)
+        //{
+        //    // 动画时间期间 isAttack01ing为true
 
-        }
+        //    isAttack01ing = false;
+
+        //}
     }
 
+    private void StopAttack01()
+    {
+        isAttack01ing = false;
+
+    }
 
 
 }
