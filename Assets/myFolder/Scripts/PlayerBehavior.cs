@@ -178,5 +178,6 @@ public class PlayerBehavior : MonoBehaviour
 
     }
 
+    // 还需要待解决的问题  在动画播放的间隔内 多次点击攻击键 ，会出发多次的攻击
 
 }
