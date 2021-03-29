@@ -57,7 +57,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AnimatedBurn_Fade: 1
-    - _AnimatedBurn_Offset: 0
+    - _AnimatedBurn_Offset: -0.02
     - _AnimatedBurn_Speed: 0.465
     - _BumpScale: 1
     - _ColorMask: 15

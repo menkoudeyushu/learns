@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/myFolder/MyScene/FirstTestScene.unity
+- path: Assets/myFolder/MyScene/3d.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -61,7 +61,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AutomaticLerp_Speed_1: 0.487
-    - _BlurHQ_Intensity_1: 0.9795148
+    - _BlurHQ_Intensity_1: 0.050179895
     - _Blur_Intensity_1: 12.560152
     - _BumpScale: 1
     - _ColorMask: 15
@@ -77,7 +77,7 @@ Material:
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpriteFade: 1
+    - _SpriteFade: 0.474
     - _SrcBlend: 1
     - _Stencil: 0
     - _StencilComp: 8

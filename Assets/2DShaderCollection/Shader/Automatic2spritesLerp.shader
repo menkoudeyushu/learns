@@ -76,7 +76,7 @@ OUT.color = IN.color;
 return OUT;
 }
 
-
+// 随时间 变化
 float4 frag (v2f i) : COLOR
 {
 float4 _MainTex_1 = tex2D(_MainTex, i.texcoord);

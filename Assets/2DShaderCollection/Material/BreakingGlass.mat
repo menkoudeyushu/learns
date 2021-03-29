@@ -60,9 +60,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Break_Seed: 1.47
-    - Break_Size: 67
-    - Break_Value: 0.9563309
+    - Break_Seed: 1.355
+    - Break_Size: 75.3
+    - Break_Value: -0.8996402
     - _AutomaticLerp_Speed_1: 0.487
     - _BlurHQPlus_Intensity_1: 32.6
     - _Blur_Intensity_1: -0.2695522
@@ -80,7 +80,7 @@ Material:
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpriteFade: 0.8
+    - _SpriteFade: 0.44
     - _SrcBlend: 1
     - _Stencil: 0
     - _StencilComp: 8

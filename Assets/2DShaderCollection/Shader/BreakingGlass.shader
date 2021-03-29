@@ -86,6 +86,7 @@ dot(p, float2(269.5, 183.3)),
 dot(p, float2(419.2, 371.9)));
 return frac(sin(q) * 43758.5453 * seed);
 }
+
 float4 Generate_Voronoi(float2 uv, float size,float seed, float black)
 {
 float2 p = floor(uv*size);
