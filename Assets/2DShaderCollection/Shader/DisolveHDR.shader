@@ -82,12 +82,14 @@ float BFXr (float2 c, float seed)
 return frac(43.*sin(c.x+7.*c.y)* seed);
 }
 
+
 float BFXn (float2 p, float seed)
 {
 float2 i = floor(p), w = p-i, j = float2 (1.,0.);
 w = w*w*(3.-w-w);
 return lerp(lerp(BFXr(i, seed), BFXr(i+j, seed), w.x), lerp(BFXr(i+j.yx, seed), BFXr(i+1., seed), w.x), w.y);
 }
+
 
 float BFXa (float2 p, float seed)
 {
@@ -108,6 +110,8 @@ c.rgb += txt.rgb*value;
 c.rgb = lerp(saturate(c.rgb),c.rgb,HDR);
 return c;
 }
+
+
 float4 frag (v2f i) : COLOR
 {
 float4 _MainTex_1 = tex2D(_MainTex, i.texcoord);

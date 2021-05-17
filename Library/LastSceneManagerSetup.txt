@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/myFolder/MyScene/3d.unity
+- path: Assets/2DShaderCollection/Demo/Demo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

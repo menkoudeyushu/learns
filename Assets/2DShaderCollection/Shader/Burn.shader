@@ -107,6 +107,7 @@ c.b = lerp(c.b, c.b*5.0*(1 - c.a) , value);
 c.rgb = lerp(saturate(c.rgb),c.rgb,HDR);
 return c;
 }
+
 float4 frag (v2f i) : COLOR
 {
 float4 _MainTex_1 = tex2D(_MainTex, i.texcoord);

@@ -93,6 +93,9 @@
     <Compile Include="Assets\Unity Technologies\2D Sprite Shape\Extras\Scripts\ConformingSpline.cs" />
     <Compile Include="Assets\Unity Technologies\2D Sprite Shape\Extras\Scripts\NodeAttach.cs" />
     <Compile Include="Assets\myFolder\Scripts\PlayerBehavior.cs" />
+    <Compile Include="Assets\system\FPSController.cs" />
+    <Compile Include="Assets\system\ShowFps.cs" />
+    <Compile Include="Assets\system\unityEditor.cs" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Engine.xml" />
     <None Include="Assets\2DShaderCollection\Shader\SymbioseDistortionFix.shader" />

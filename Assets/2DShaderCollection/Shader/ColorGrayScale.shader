@@ -85,9 +85,11 @@ return lerp(txt,float4(gs, txt.a), fade);
 float4 frag (v2f i) : COLOR
 {
 float4 _MainTex_1 = tex2D(_MainTex, i.texcoord);
+// ÑÕÉ«
 float4 GrayScale_1 = grayscale(_MainTex_1,_GrayScale_Fade_1);
 float4 FinalResult = GrayScale_1;
 FinalResult.rgb *= i.color.rgb;
+// alpha
 FinalResult.a = FinalResult.a * _SpriteFade * i.color.a;
 return FinalResult;
 }

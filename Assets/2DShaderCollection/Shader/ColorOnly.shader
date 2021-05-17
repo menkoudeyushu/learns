@@ -80,6 +80,7 @@ float4 UniColor(float4 txt, float4 color)
 txt.rgb = lerp(txt.rgb,color.rgb,color.a);
 return txt;
 }
+
 float4 frag (v2f i) : COLOR
 {
 float4 _MainTex_1 = tex2D(_MainTex, i.texcoord);

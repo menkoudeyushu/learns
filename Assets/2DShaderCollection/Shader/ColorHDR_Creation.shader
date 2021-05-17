@@ -82,6 +82,7 @@ if (txt.g>0.98) txt.g=2;
 if (txt.b>0.98) txt.b=2;
 return lerp(saturate(txt),txt, value);
 }
+
 float4 frag (v2f i) : COLOR
 {
 float4 _MainTex_1 = tex2D(_MainTex, i.texcoord);

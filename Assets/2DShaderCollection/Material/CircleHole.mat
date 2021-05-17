@@ -82,9 +82,9 @@ Material:
     - _CircleFade_PosY_1: 0.5
     - _CircleFade_Size_1: 0.54899865
     - _CircleHole_Dist_1: 0.11
-    - _CircleHole_PosX_1: 0.88
+    - _CircleHole_PosX_1: -0.28
     - _CircleHole_PosY_1: 0.5
-    - _CircleHole_Size_1: -0.6384597
+    - _CircleHole_Size_1: 0.48324382
     - _ColorMask: 15
     - _Cutoff: 0.5
     - _Destroyer_Speed_1: 0.5
