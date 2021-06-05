@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -279,7 +279,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.15
   Speed: 0.15
 --- !u!212 &16299137
 SpriteRenderer:
@@ -1535,7 +1534,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 1
 --- !u!212 &71988340
 SpriteRenderer:
@@ -2044,7 +2042,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.25
 --- !u!212 &102013659
 SpriteRenderer:
@@ -2456,7 +2453,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.5
 --- !u!212 &117590653
 SpriteRenderer:
@@ -3938,7 +3934,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.15
   Speed: 0.15
 --- !u!212 &260832702
 SpriteRenderer:
@@ -4164,7 +4159,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.35
 --- !u!212 &271063213
 SpriteRenderer:
@@ -4740,7 +4734,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.15
   Speed: 0.15
 --- !u!212 &297099104
 SpriteRenderer:
@@ -5249,7 +5242,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.15
 --- !u!212 &367647895
 SpriteRenderer:
@@ -5850,7 +5842,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.25
 --- !u!212 &395393459
 SpriteRenderer:
@@ -5983,7 +5974,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 16
   Speed: 0.25
 --- !u!212 &404794230
 SpriteRenderer:
@@ -6587,7 +6577,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.3
 --- !u!212 &426340220
 SpriteRenderer:
@@ -6720,7 +6709,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.3
 --- !u!212 &426613686
 SpriteRenderer:
@@ -6853,7 +6841,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 16
   Speed: 0.5
 --- !u!212 &431432983
 SpriteRenderer:
@@ -7182,7 +7169,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 4
   Speed: 0.5
 --- !u!212 &445907111
 SpriteRenderer:
@@ -7315,7 +7301,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 360
   Speed: 0.5
 --- !u!212 &451184955
 SpriteRenderer:
@@ -7448,7 +7433,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.25
 --- !u!212 &453432277
 SpriteRenderer:
@@ -7667,7 +7651,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.5
   Speed: 0.5
 --- !u!212 &481778349
 SpriteRenderer:
@@ -7800,7 +7783,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.5
 --- !u!212 &482155614
 SpriteRenderer:
@@ -7933,7 +7915,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 64
   Speed: 0.35
 --- !u!212 &485169202
 SpriteRenderer:
@@ -8066,7 +8047,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.3
 --- !u!212 &490419073
 SpriteRenderer:
@@ -8387,7 +8367,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.3
 --- !u!212 &511581508
 SpriteRenderer:
@@ -8522,7 +8501,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.5
 --- !u!212 &513095931
 SpriteRenderer:
@@ -8842,7 +8820,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.3
 --- !u!212 &538658722
 SpriteRenderer:
@@ -8975,7 +8952,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.5
 --- !u!212 &540980625
 SpriteRenderer:
@@ -9206,7 +9182,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.25
 --- !u!212 &547148378
 SpriteRenderer:
@@ -9339,7 +9314,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 1
 --- !u!212 &549421658
 SpriteRenderer:
@@ -9842,7 +9816,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 64
   Speed: 0.35
 --- !u!212 &591129222
 SpriteRenderer:
@@ -9975,7 +9948,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.5
   Speed: 0.5
 --- !u!212 &591263230
 SpriteRenderer:
@@ -10108,7 +10080,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.25
 --- !u!212 &594953141
 SpriteRenderer:
@@ -10241,7 +10212,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 16
   Speed: 0.5
 --- !u!212 &605379825
 SpriteRenderer:
@@ -10548,7 +10518,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 64
   Speed: 0.35
 --- !u!212 &625137598
 SpriteRenderer:
@@ -11337,7 +11306,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.3
 --- !u!212 &662863805
 SpriteRenderer:
@@ -11470,7 +11438,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.5
   Speed: 0.5
 --- !u!212 &668437083
 SpriteRenderer:
@@ -12420,7 +12387,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 64
   Speed: 0.35
 --- !u!212 &711966654
 SpriteRenderer:
@@ -12553,7 +12519,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 1
 --- !u!212 &718971898
 SpriteRenderer:
@@ -12965,7 +12930,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.35
   Speed: 0.25
 --- !u!212 &747863681
 SpriteRenderer:
@@ -13193,7 +13157,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 1
 --- !u!212 &772316850
 SpriteRenderer:
@@ -13326,7 +13289,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 64
   Speed: 0.35
 --- !u!212 &776022204
 SpriteRenderer:
@@ -13459,7 +13421,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.2
   Speed: 0.25
 --- !u!212 &789032956
 SpriteRenderer:
@@ -13703,6 +13664,87 @@ Transform:
   - {fileID: 616082200}
   m_Father: {fileID: 0}
   m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &830608743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 830608745}
+  - component: {fileID: 830608744}
+  m_Layer: 0
+  m_Name: "fgo \u609D\u85E45k\u96C4\u97A6\u65CF\u7967_\u6368\u5049\u829E\u5399"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &830608744
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830608743}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 39a2a8903fe578046949555e039cc9a1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 05d02bd712fff43429e4e11bab86fddc, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 51.2, y: 36.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &830608745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830608743}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 568.6, y: 21.50167, z: 22.133286}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 110
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &836422538
 GameObject:
@@ -14040,7 +14082,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 16
   Speed: 0.25
 --- !u!212 &861889650
 SpriteRenderer:
@@ -14359,7 +14400,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.5
 --- !u!212 &888953894
 SpriteRenderer:
@@ -14678,7 +14718,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.35
   Speed: 0.15
 --- !u!212 &913368548
 SpriteRenderer:
@@ -14904,7 +14943,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.2
   Speed: 0.5
 --- !u!212 &916715217
 SpriteRenderer:
@@ -15329,7 +15367,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 2
   Speed: 0.5
 --- !u!212 &924983789
 SpriteRenderer:
@@ -15658,7 +15695,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 2
   Speed: 0.5
 --- !u!212 &943329626
 SpriteRenderer:
@@ -15874,7 +15910,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 16
   Speed: 0.25
 --- !u!212 &955747427
 SpriteRenderer:
@@ -16274,7 +16309,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.5
   Speed: 0.55
 --- !u!212 &974060564
 SpriteRenderer:
@@ -16407,7 +16441,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.15
   Speed: 0.15
 --- !u!212 &974578158
 SpriteRenderer:
@@ -16906,7 +16939,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.35
   Speed: 0.25
 --- !u!212 &1002622359
 SpriteRenderer:
@@ -17039,7 +17071,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.25
 --- !u!212 &1013577649
 SpriteRenderer:
@@ -17266,7 +17297,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.5
   Speed: 0.5
 --- !u!212 &1019400405
 SpriteRenderer:
@@ -17871,7 +17901,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 2
   Speed: 0.5
 --- !u!212 &1052626036
 SpriteRenderer:
@@ -18190,7 +18219,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.25
 --- !u!212 &1066699235
 SpriteRenderer:
@@ -18511,7 +18539,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 2
   Speed: 0.5
 --- !u!212 &1095743968
 SpriteRenderer:
@@ -18739,7 +18766,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.5
 --- !u!212 &1109036858
 SpriteRenderer:
@@ -18872,7 +18898,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 64
   Speed: 0.35
 --- !u!212 &1111229024
 SpriteRenderer:
@@ -19368,7 +19393,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.5
 --- !u!212 &1163184313
 SpriteRenderer:
@@ -19501,7 +19525,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.5
   Speed: 0.3
 --- !u!212 &1172697711
 SpriteRenderer:
@@ -20667,7 +20690,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 1
 --- !u!212 &1217872145
 SpriteRenderer:
@@ -20800,7 +20822,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.5
 --- !u!212 &1231390209
 SpriteRenderer:
@@ -20933,7 +20954,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.25
 --- !u!212 &1238986846
 SpriteRenderer:
@@ -21830,7 +21850,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.5
 --- !u!212 &1283891043
 SpriteRenderer:
@@ -22244,7 +22263,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 2
   Speed: 0.15
 --- !u!212 &1298230755
 SpriteRenderer:
@@ -23470,7 +23488,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.5
 --- !u!212 &1378795952
 SpriteRenderer:
@@ -24077,7 +24094,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.25
 --- !u!212 &1409333685
 SpriteRenderer:
@@ -24585,7 +24601,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 64
   Speed: 0.35
 --- !u!212 &1464091046
 SpriteRenderer:
@@ -24811,7 +24826,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.5
 --- !u!212 &1472288077
 SpriteRenderer:
@@ -25135,7 +25149,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.15
   Speed: 0.15
 --- !u!212 &1487295318
 SpriteRenderer:
@@ -25361,7 +25374,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.15
   Speed: 0.15
 --- !u!212 &1501045704
 SpriteRenderer:
@@ -25681,7 +25693,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.25
 --- !u!212 &1528218243
 SpriteRenderer:
@@ -25814,7 +25825,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 64
   Speed: 0.25
 --- !u!212 &1533248009
 SpriteRenderer:
@@ -26042,7 +26052,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.5
   Speed: 0.5
 --- !u!212 &1542554671
 SpriteRenderer:
@@ -26464,7 +26473,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 64
   Speed: 0.35
 --- !u!212 &1567785959
 SpriteRenderer:
@@ -26976,7 +26984,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.35
   Speed: 0.15
 --- !u!212 &1611019083
 SpriteRenderer:
@@ -27570,7 +27577,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.6
 --- !u!212 &1648529129
 SpriteRenderer:
@@ -28168,7 +28174,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 1
 --- !u!212 &1674070036
 SpriteRenderer:
@@ -28301,7 +28306,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.25
 --- !u!212 &1681344455
 SpriteRenderer:
@@ -28529,7 +28533,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.15
   Speed: 0.15
 --- !u!212 &1690053758
 SpriteRenderer:
@@ -28941,7 +28944,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.25
 --- !u!212 &1723869215
 SpriteRenderer:
@@ -29935,7 +29937,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.55
 --- !u!212 &1779073484
 SpriteRenderer:
@@ -30698,7 +30699,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 64
   Speed: 0.35
 --- !u!212 &1832898230
 SpriteRenderer:
@@ -30831,7 +30831,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.15
   Speed: 0.15
 --- !u!212 &1856888187
 SpriteRenderer:
@@ -31244,7 +31243,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.15
   Speed: 0.15
 --- !u!212 &1879708366
 SpriteRenderer:
@@ -31470,7 +31468,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 12
   Speed: 0.35
 --- !u!212 &1897216811
 SpriteRenderer:
@@ -31795,7 +31792,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 8
   Speed: 0.5
 --- !u!212 &1914813931
 SpriteRenderer:
@@ -32278,7 +32274,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.35
   Speed: 0.15
 --- !u!212 &1932306416
 SpriteRenderer:
@@ -32785,7 +32780,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.2
   Speed: 0.35
 --- !u!212 &2004576624
 SpriteRenderer:
@@ -33107,7 +33101,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 64
   Speed: 0.35
 --- !u!212 &2027743714
 SpriteRenderer:
@@ -33523,7 +33516,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.25
 --- !u!212 &2054742358
 SpriteRenderer:
@@ -33755,7 +33747,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 1
   Speed: 0.5
 --- !u!212 &2075019388
 SpriteRenderer:
@@ -34078,7 +34069,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 64
   Speed: 0.35
 --- !u!212 &2082119321
 SpriteRenderer:
@@ -34211,7 +34201,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 16
   Speed: 1
 --- !u!212 &2089593380
 SpriteRenderer:
@@ -34344,7 +34333,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 0.15
   Speed: 0.15
 --- !u!212 &2095071342
 SpriteRenderer:
@@ -35042,7 +35030,6 @@ MonoBehaviour:
     m_PreInfinity: 1
     m_PostInfinity: 1
     m_RotationOrder: 0
-  Mul: 64
   Speed: 0.35
 --- !u!212 &2128247252
 SpriteRenderer:

@@ -9,7 +9,8 @@ Shader "2DShaderCollection/Twist"
 {
 Properties
 {
-[PerRendererData] _MainTex("Sprite Texture", 2D) = "white" {}
+[PerRendererData] 
+_MainTex("Sprite Texture", 2D) = "white" {}
 TwistUV_TwistUV_Bend_1("TwistUV_TwistUV_Bend_1", Range(-1, 1)) = 0.296
 TwistUV_TwistUV_PosX_1("TwistUV_TwistUV_PosX_1", Range(-1, 2)) = 0.5
 TwistUV_TwistUV_PosY_1("TwistUV_TwistUV_PosY_1", Range(-1, 2)) = 0.5
@@ -99,12 +100,14 @@ tc = float2(dot(tc, float2(c, -s)), dot(tc, float2(s, c)));
 tc += center;
 return tc;
 }
+
 float4 frag (v2f i) : COLOR
 {
 float2 TwistUV_1 = TwistUV(i.texcoord,TwistUV_TwistUV_Bend_1,TwistUV_TwistUV_PosX_1,TwistUV_TwistUV_PosY_1,TwistUV_TwistUV_Radius_1);
 i.texcoord = lerp(i.texcoord,TwistUV_1,_LerpUV_Fade_1);
 float4 _MainTex_1 = tex2D(_MainTex,i.texcoord);
 float4 FinalResult = _MainTex_1;
+
 FinalResult.rgb *= i.color.rgb;
 FinalResult.a = FinalResult.a * _SpriteFade * i.color.a;
 return FinalResult;

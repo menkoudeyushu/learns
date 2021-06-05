@@ -26,7 +26,13 @@ _SpriteFade("SpriteFade", Range(0, 1)) = 1.0
 SubShader
 {
 
-Tags {"Queue" = "Transparent" "IgnoreProjector" = "true" "RenderType" = "Transparent" "PreviewType"="Plane" "CanUseSpriteAtlas"="True" }
+Tags {
+"Queue" = "Transparent"
+ "IgnoreProjector" = "true" 
+"RenderType" = "Transparent" 
+"PreviewType"="Plane" 
+"CanUseSpriteAtlas"="True" 
+}
 ZWrite Off Blend SrcAlpha OneMinusSrcAlpha Cull Off
 
 // required for UI.Mask
@@ -82,11 +88,10 @@ float3 c_g = float3(green.r, green.g, green.b);
 float3 c_b = float3(blue.r, blue.g, blue.b);
 float4 r = float4(dot(rgba.rgb, c_r) + red.a, dot(rgba.rgb, c_g) + green.a, dot(rgba.rgb, c_b) + blue.a, rgba.a);
 return lerp(rgba, saturate(r), fade);
-
 }
 float4 frag (v2f i) : COLOR
 {
-float4 _MainTex_1 = tex2D(_MainTex, i.texcoord);
+float4 float4 = tex2D(_MainTex, i.texcoord);
 float4 _ColorFilters_1 = ColorFilters(_MainTex_1,float4(2,1.09,-1.04,-0.48),float4(0.42,1.26,-0.01,-0.2),float4(-0.4,1.21,-0.31,0.12),_ColorFilters_Fade_1);
 float4 FinalResult = _ColorFilters_1;
 FinalResult.rgb *= i.color.rgb;

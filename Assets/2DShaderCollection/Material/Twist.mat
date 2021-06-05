@@ -32,7 +32,7 @@ Material:
     - Symbiose_Position: -0.209
     - TiltDownUV_TiltDownUV_Value_1: -0.14888936
     - TiltRightUV_TiltRightUV_Value_1: 0.1388548
-    - TwistUV_TwistUV_Bend_1: -0.00064337254
+    - TwistUV_TwistUV_Bend_1: -0.4140553
     - TwistUV_TwistUV_PosX_1: 0.5
     - TwistUV_TwistUV_PosY_1: 0.5
     - TwistUV_TwistUV_Radius_1: 0.5
@@ -50,7 +50,7 @@ Material:
     - _ShinyFX_Size_1: -0.1
     - _ShinyFX_Smooth_1: 0.25
     - _ShinyFX_Speed_1: 1
-    - _SpriteFade: 1
+    - _SpriteFade: 0.525
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0

@@ -15,11 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Review", "Googl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Instant", "Google.Play.Instant.csproj", "{41BBCA66-19AA-C89F-C7ED-46F73C38D860}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{EE8AF799-2876-8987-B0D7-57E789A1AF4B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Android.AppBundle.Editor", "Google.Android.AppBundle.Editor.csproj", "{9F8C2EF3-925F-A3F7-65DC-1E4E2038F82B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Instant.Editor", "Google.Play.Instant.Editor.csproj", "{9810D0E0-A4AC-EF57-706F-EC3B167DDA73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{EE8AF799-2876-8987-B0D7-57E789A1AF4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Billing.Editor", "Google.Play.Billing.Editor.csproj", "{0E8E70C3-8FB7-5320-109C-8BDDAA367A98}"
 EndProject
@@ -57,10 +57,6 @@ Global
 		{41BBCA66-19AA-C89F-C7ED-46F73C38D860}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41BBCA66-19AA-C89F-C7ED-46F73C38D860}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41BBCA66-19AA-C89F-C7ED-46F73C38D860}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE8AF799-2876-8987-B0D7-57E789A1AF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE8AF799-2876-8987-B0D7-57E789A1AF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE8AF799-2876-8987-B0D7-57E789A1AF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE8AF799-2876-8987-B0D7-57E789A1AF4B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9F8C2EF3-925F-A3F7-65DC-1E4E2038F82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9F8C2EF3-925F-A3F7-65DC-1E4E2038F82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F8C2EF3-925F-A3F7-65DC-1E4E2038F82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,6 +65,10 @@ Global
 		{9810D0E0-A4AC-EF57-706F-EC3B167DDA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9810D0E0-A4AC-EF57-706F-EC3B167DDA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9810D0E0-A4AC-EF57-706F-EC3B167DDA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE8AF799-2876-8987-B0D7-57E789A1AF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE8AF799-2876-8987-B0D7-57E789A1AF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE8AF799-2876-8987-B0D7-57E789A1AF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE8AF799-2876-8987-B0D7-57E789A1AF4B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0E8E70C3-8FB7-5320-109C-8BDDAA367A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0E8E70C3-8FB7-5320-109C-8BDDAA367A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E8E70C3-8FB7-5320-109C-8BDDAA367A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
