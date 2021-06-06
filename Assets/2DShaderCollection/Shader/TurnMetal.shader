@@ -98,6 +98,7 @@ sortie.rgb=0.05+sortie.rgb*0.5+dot(sortie.rgb, float3 (0.2126, 0.2152, 0.1722))*
 sortie.a=txt1.a;
 return sortie; 
 }
+
 float4 frag (v2f i) : COLOR
 {
 float4 _TurnMetal_1 = ColorTurnMetal(i.texcoord,_MainTex,_TurnMetal_Speed_1);

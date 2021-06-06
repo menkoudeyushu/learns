@@ -4,7 +4,7 @@
 
 
 //////////////////////////////////////////////
-
+																    
 Shader "2DShaderCollection/TurnTransparent"
 {
 Properties
@@ -15,13 +15,12 @@ _FillColor_Color_1("_FillColor_Color_1", COLOR) = (0.3814879,1,0.1911765,1)
 _SpriteFade("SpriteFade", Range(0, 1)) = 1.0
 
 // required for UI.Mask
-[HideInInspector]_StencilComp("Stencil Comparison", Float) = 8
-[HideInInspector]_Stencil("Stencil ID", Float) = 0
-[HideInInspector]_StencilOp("Stencil Operation", Float) = 0
-[HideInInspector]_StencilWriteMask("Stencil Write Mask", Float) = 255
-[HideInInspector]_StencilReadMask("Stencil Read Mask", Float) = 255
-[HideInInspector]_ColorMask("Color Mask", Float) = 15
-
+_StencilComp("Stencil Comparison", Float) = 8
+_Stencil("Stencil ID", Float) = 0
+_StencilOp("Stencil Operation", Float) = 0
+_StencilWriteMask("Stencil Write Mask", Float) = 255
+_StencilReadMask("Stencil Read Mask", Float) = 255
+_ColorMask("Color Mask", Float) = 15
 }
 
 SubShader
@@ -82,6 +81,7 @@ float4 UniColor(float4 txt, float4 color)
 txt.rgb = lerp(txt.rgb,color.rgb,color.a);
 return txt;
 }
+
 float4 ColorTurnTransparent(float2 uv, sampler2D txt, float speed)
 {
 float4 txt1=tex2D(txt,uv);
@@ -100,6 +100,7 @@ sortie.rgb=1-sortie.a;
 sortie.a*=txt1.a*r;
 return sortie; 
 }
+
 float4 frag (v2f i) : COLOR
 {
 float4 _TurnTransparent_1 = ColorTurnTransparent(i.texcoord,_MainTex,_TurnTransparent_Speed_1);

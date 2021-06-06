@@ -269,6 +269,7 @@
     <None Include="Assets\ShaderCollection\ShaderAsset-master\Asset\shader\HDR.shader" />
     <None Include="Assets\GabrielAguiarProductions\Unique_Projectiles_Volume_2\Shaders\Legacy\AlphaBlended_EdgeSoft.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.xml" />
+    <None Include="Assets\ShaderCollection\ShaderAsset-master\Asset\shader\has_done\TurnTransparent.shader" />
     <None Include="Assets\2DShaderCollection\Shader\DoodleDraw.shader" />
     <None Include="Assets\2DShaderCollection\Shader\ColorTint.shader" />
     <None Include="Assets\ShaderCollection\ShaderAsset-master\Asset\shader\ColorAdd.shader" />

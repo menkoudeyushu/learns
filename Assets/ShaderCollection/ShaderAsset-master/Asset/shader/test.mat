@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: test
-  m_Shader: {fileID: 4800000, guid: ffa50ec12ddf68149b9507a4f0ff6e63, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6ba6e67f2ca282a4dbd3c31f4a70259f, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -56,6 +56,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - TwistUV_TwistUV_Bend_1: -0.62
+    - TwistUV_TwistUV_PosX_1: 0.5
+    - TwistUV_TwistUV_PosY_1: 0.5
+    - TwistUV_TwistUV_Radius_1: 0.5
     - _AlphaClip: 0
     - _Blend: 0
     - _BlurSize: 1
@@ -68,6 +72,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _LerpUV_Fade_1: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Param: 1.713
@@ -77,9 +82,10 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpriteFade: 0.402
+    - _SpriteFade: 0.539
     - _SrcBlend: 1
     - _Surface: 0
+    - _TurnTransparent_Speed_1: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     - _lineWidth: 4.38
@@ -88,6 +94,7 @@ Material:
     - _BaseColor: {r: 0.8773585, g: 0.23589355, b: 0.23589355, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FillColor_Color_1: {r: 0.3814879, g: 1, b: 0.1911765, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _lineColor: {r: 0.1300379, g: 1, b: 0, a: 1}
 --- !u!114 &1554073280785921855
