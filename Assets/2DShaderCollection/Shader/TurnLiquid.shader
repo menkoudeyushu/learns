@@ -9,7 +9,8 @@ Shader "2DShaderCollection/TurnLiquid"
 {
 Properties
 {
-[PerRendererData] _MainTex("Sprite Texture", 2D) = "white" {}
+[PerRendererData] 
+_MainTex("Sprite Texture", 2D) = "white" {}
 WaveX("WaveX", Range(0, 2)) = 2
 WaveY("WaveY", Range(0, 2)) = 2
 DistanceX("DistanceX", Range(0, 1)) = 0.3
@@ -86,7 +87,8 @@ return OUT;
 
 
 float2 LiquidUV(float2 p, float WaveX, float WaveY, float DistanceX, float DistanceY, float Speed)
-{ Speed *= _Time * 100;
+{ 
+Speed *= _Time * 100;
 float x = sin(p.y * 4 * WaveX + Speed);
 float y = cos(p.x * 4 * WaveY + Speed);
 x += sin(p.x)*0.1;
@@ -97,9 +99,10 @@ x *= y + WaveY*8;
 y *= x + WaveX*8;
 p.x = p.x + x * DistanceX * 0.015;
 p.y = p.y + y * DistanceY * 0.015;
-
 return p;
 }
+
+
 float4 frag (v2f i) : COLOR
 {
 float2 LiquidUV_1 = LiquidUV(i.texcoord,WaveX,WaveY,DistanceX,DistanceY,Speed);

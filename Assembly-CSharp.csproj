@@ -220,6 +220,7 @@
     <None Include="Assets\2DShaderCollection\Shader\CompressionTintAdditive.shader" />
     <None Include="Assets\2DShaderCollection\Shader\Kaleidoscope.shader" />
     <None Include="Assets\2DShaderCollection\Shader\Lerp2sprites.shader" />
+    <None Include="Assets\ShaderCollection\ShaderAsset-master\Asset\shader\has_done\NewTurnLiquid.shader" />
     <None Include="Assets\2DShaderCollection\Shader\CircleHole.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Messaging.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.AddIn.xml" />
