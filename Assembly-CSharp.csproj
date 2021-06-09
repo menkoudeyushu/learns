@@ -190,6 +190,7 @@
     <None Include="Assets\2DShaderCollection\Shader\Outline.shader" />
     <None Include="Assets\Ludiq\Assemblies\Bolt.Flow.Editor.xml" />
     <None Include="Assets\Ludiq\Bolt\LICENSES.txt" />
+    <None Include="Assets\ShaderCollection\ShaderAsset-master\Asset\shader\has_done\NewTurnGold.shader" />
     <None Include="Assets\ShaderCollection\ShaderAsset-master\Asset\shader\URPvintage.shader" />
     <None Include="Assets\2DShaderCollection\Shader\AnimatedBurn.shader" />
     <None Include="Assets\Ludiq\Assemblies\Ludiq.Graphs.Editor.xml" />

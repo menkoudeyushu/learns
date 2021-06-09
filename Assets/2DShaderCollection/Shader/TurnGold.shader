@@ -9,7 +9,8 @@ Shader "2DShaderCollection/TurnGold"
 {
 Properties
 {
-[PerRendererData] _MainTex("Sprite Texture", 2D) = "white" {}
+[PerRendererData] 
+_MainTex("Sprite Texture", 2D) = "white" {}
 _TurnGold_Speed_1("_TurnGold_Speed_1", Range(-8, 8)) = 1
 _SpriteFade("SpriteFade", Range(0, 1)) = 1.0
 
@@ -101,6 +102,8 @@ sortie.rg+=0.025;
 sortie.a=txt1.a;
 return sortie; 
 }
+
+
 float4 frag (v2f i) : COLOR
 {
 float4 _TurnGold_1 = ColorTurnGold(i.texcoord,_MainTex,_TurnGold_Speed_1);
