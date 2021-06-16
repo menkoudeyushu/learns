@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: test
-  m_Shader: {fileID: 4800000, guid: c57f99fcdd4f79c4b8aaa19d4bb690a6, type: 3}
+  m_Shader: {fileID: 4800000, guid: 06031dcdc30f21244ad560345f1d538c, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Bloom:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 66c2c659d5e413b48b4f05f35d4e32d6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BlowTex:
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 68100908efba1444aa1a462c55c4080a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 76308c93d2b97e34d868a1d1e32b18a3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -56,8 +56,27 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - AnimatedPingPongOffsetUV_1_OffsetX_1: -0.06
+    - AnimatedPingPongOffsetUV_1_OffsetY_1: -0.17
+    - AnimatedPingPongOffsetUV_1_Speed_1: 0.354
+    - AnimatedPingPongOffsetUV_1_ZoomX_1: 1
+    - AnimatedPingPongOffsetUV_1_ZoomY_1: 1
+    - AnimatedRotationUV_AnimatedRotationUV_Intensity_1: 0.5
+    - AnimatedRotationUV_AnimatedRotationUV_PosX_1: 0.823
+    - AnimatedRotationUV_AnimatedRotationUV_PosY_1: 0.879
+    - AnimatedRotationUV_AnimatedRotationUV_Rotation_1: -13
+    - AnimatedRotationUV_AnimatedRotationUV_Speed_1: 4.107
+    - AnimatedTwistUV_AnimatedTwistUV_Bend_1: -0.214
+    - AnimatedTwistUV_AnimatedTwistUV_PosX_1: 0.5
+    - AnimatedTwistUV_AnimatedTwistUV_PosY_1: 0.5
+    - AnimatedTwistUV_AnimatedTwistUV_Radius_1: 0.634
+    - AnimatedTwistUV_AnimatedTwistUV_Speed_1: 4.21
     - DistanceX: 0.3
     - DistanceY: 0.3
+    - Intensity_X: 1
+    - Intensity_Y: 1
+    - Offset_X: 0.0091
+    - Offset_Y: 0.0102
     - Speed: 1
     - TurnLiquid_Value: 1
     - TwistUV_TwistUV_Bend_1: -0.62
@@ -68,29 +87,53 @@ Material:
     - WaveY: 1.28
     - _AlphaClip: 0
     - _Blend: 0
-    - _BlurSize: 1
+    - _BlurSize: 5
     - _BumpScale: 1
     - _ColorFilters_Fade_1: 1.59
+    - _ColorMask: 15
     - _Cull: 2
     - _Cutoff: 0.5
     - _DstBlend: 0
     - _EnvironmentReflections: 1
+    - _Fire_Addition_Value: 2.19
+    - _Fire_Displacement_Value: 0.088
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _LerpUV_Fade_1: 1
+    - _LerpUV_Fade_1: 0.803
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _Param: 1.713
+    - _OutlineEmpty_Size_1: 7.98
+    - _Outline_HDR_1: 0.76
+    - _Outline_Size_1: 1
+    - _Param: 2.39
     - _ParamSize: 1.07
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Sharpness_Angle_1: -0.68
+    - _Sharpness_Distance_1: 10.9
+    - _Sharpness_Fade_1: 0.36
+    - _Sharpness_Intensity_1: 0.28
+    - _Sharpness_original_1: 0.25
+    - _ShinyFX_Intensity_1: 1
+    - _ShinyFX_Pos_1: 0
+    - _ShinyFX_Size_1: 0.01
+    - _ShinyFX_Smooth_1: 0.25
+    - _ShinyFX_Speed_1: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpriteFade: 0.537
+    - _SpriteFade: 0.831
     - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
     - _Surface: 0
+    - _ThresholdSmooth_Smooth_1: 0.602
+    - _ThresholdSmooth_Value_1: 0.338
+    - _Threshold_Fade_1: 0.395
     - _TurnGold_Speed_1: 4.33
     - _TurnTransparent_Speed_1: 1.77
     - _WorkflowMode: 1
@@ -102,6 +145,9 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FillColor_Color_1: {r: 0.8490566, g: 0.54221255, b: 0.13216448, a: 1}
+    - _FlashColor: {r: 0.8867924, g: 0.40574938, b: 0.40574938, a: 1}
+    - _OutlineEmpty_Color_1: {r: 1, g: 0, b: 0, a: 1}
+    - _Outline_Color_1: {r: 0.90568495, g: 0, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _lineColor: {r: 0.1300379, g: 1, b: 0, a: 1}
 --- !u!114 &1554073280785921855

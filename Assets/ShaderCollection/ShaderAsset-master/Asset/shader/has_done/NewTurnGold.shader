@@ -3,7 +3,7 @@
      Properties
     { 
        _MainTex("Sprite Texture", 2D) = "white" {}
-        _TurnGold_Speed_1("_TurnGold_Speed_1", Range(-8, 8)) = 1    
+       _TurnGold_Speed_1("_TurnGold_Speed_1", Range(-8, 8)) = 1    
        _SpriteFade("SpriteFade",Range(0, 1))= 1.0
     }
 

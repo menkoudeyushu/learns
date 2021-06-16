@@ -111,6 +111,7 @@ r = saturate(r);
 r.a = rgb.a;
 return r;
 }
+
 float4 frag (v2f i) : COLOR
 {
 float4 _Sharpness_1 = Sharpness(_MainTex,i.texcoord,_Sharpness_Angle_1,_Sharpness_Distance_1,_Sharpness_Intensity_1,_Sharpness_Fade_1,_Sharpness_original_1);

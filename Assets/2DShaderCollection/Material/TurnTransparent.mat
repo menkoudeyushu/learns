@@ -57,4 +57,4 @@ Material:
     - _TurnMetal_Speed_1: 1
     - _TurnTransparent_Speed_1: -0.46
     m_Colors:
-    - _FillColor_Color_1: {r: 1, g: 0.04082808, b: 0, a: 1}
+    - _FillColor_Color_1: {r: 0.6698113, g: 0.44821355, b: 0.43916875, a: 1}

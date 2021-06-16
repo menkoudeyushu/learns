@@ -114,6 +114,8 @@ float4 result = smoothstep(smooth, 0.95, finalMask);
 result.a = saturate(result.a + black);
 return result;
 }
+
+
 float4 Color_PreGradients(float4 rgba, float4 a, float4 b, float4 c, float4 d, float offset, float fade, float speed)
 {
 float gray = (rgba.r + rgba.g + rgba.b) / 3;
@@ -123,10 +125,12 @@ result.a = rgba.a;
 result.rgb = lerp(rgba.rgb, result.rgb, fade);
 return result;
 }
+
 float2 SimpleDisplacementUV(float2 uv,float x, float y, float value)
 {
 return lerp(uv,uv+float2(x,y),value);
 }
+
 float4 frag (v2f i) : COLOR
 {
 float4 _Generate_Fire_1 = Generate_Fire(i.texcoord,0,0,0.041,0.634,1,0);

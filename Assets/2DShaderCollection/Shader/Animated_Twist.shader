@@ -18,6 +18,7 @@ AnimatedTwistUV_AnimatedTwistUV_Speed_1("AnimatedTwistUV_AnimatedTwistUV_Speed_1
 _LerpUV_Fade_1("_LerpUV_Fade_1", Range(0, 1)) = 1
 _SpriteFade("SpriteFade", Range(0, 1)) = 1.0
 
+
 // required for UI.Mask
 [HideInInspector]_StencilComp("Stencil Comparison", Float) = 8
 [HideInInspector]_Stencil("Stencil ID", Float) = 0
@@ -101,6 +102,7 @@ tc = float2(dot(tc, float2(c, -s)), dot(tc, float2(s, c)));
 tc += center;
 return tc;
 }
+
 float4 frag (v2f i) : COLOR
 {
 float2 AnimatedTwistUV_1 = AnimatedTwistUV(i.texcoord,AnimatedTwistUV_AnimatedTwistUV_Bend_1,AnimatedTwistUV_AnimatedTwistUV_PosX_1,AnimatedTwistUV_AnimatedTwistUV_PosY_1,AnimatedTwistUV_AnimatedTwistUV_Radius_1,AnimatedTwistUV_AnimatedTwistUV_Speed_1);

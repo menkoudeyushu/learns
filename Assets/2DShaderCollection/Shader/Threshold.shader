@@ -74,13 +74,14 @@ OUT.color = IN.color;
 return OUT;
 }
 
-
+// 0.333 * source_color ----> step
 float4 Threshold(float4 txt, float value)
 {
 float l = (txt.x + txt.y + txt.z) * 0.33;
 txt.rgb = smoothstep(value, value +0.0001, l);
 return txt;
 }
+
 float4 frag (v2f i) : COLOR
 {
 float4 _MainTex_1 = tex2D(_MainTex, i.texcoord);

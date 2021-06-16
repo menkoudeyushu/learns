@@ -25,9 +25,9 @@ _SpriteFade("SpriteFade", Range(0, 1)) = 1.0
 
 }
 
+
 SubShader
 {
-
 Tags {"Queue" = "Transparent" "IgnoreProjector" = "true" "RenderType" = "Transparent" "PreviewType"="Plane" "CanUseSpriteAtlas"="True" }
 ZWrite Off Blend SrcAlpha OneMinusSrcAlpha Cull Off
 

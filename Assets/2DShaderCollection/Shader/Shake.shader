@@ -87,6 +87,7 @@ float2 AnimatedShakeUV(float2 uv, float offsetx, float offsety, float zoomx, flo
 {
 float time = sin(_Time * speed * 5000 * zoomx);
 float time2 = sin(_Time * speed * 5000 * zoomy);
+// 每个UV 坐标的相对偏移量
 uv += float2(offsetx * time, offsety * time2);
 return uv;
 }

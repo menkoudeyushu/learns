@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Repeat: 720
+    - Repeat: 728
     - ZoomUV_PosX_1: 0.5
     - ZoomUV_PosY_1: 0.5
     - ZoomUV_Zoom_1: 1
@@ -75,7 +75,7 @@ Material:
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpriteFade: 0.256
+    - _SpriteFade: 0.692
     - _SrcBlend: 1
     - _Stencil: 0
     - _StencilComp: 8

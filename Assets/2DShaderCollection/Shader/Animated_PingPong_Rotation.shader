@@ -59,6 +59,7 @@ float4 color    : COLOR;
 float2 texcoord : TEXCOORD0;
 };
 
+
 struct v2f
 {
 float2 texcoord  : TEXCOORD0;

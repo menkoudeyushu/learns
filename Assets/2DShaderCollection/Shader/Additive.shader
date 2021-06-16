@@ -62,21 +62,21 @@ float _SpriteFade;
 
 v2f vert(appdata_t IN)
 {
-v2f OUT;
-OUT.vertex = UnityObjectToClipPos(IN.vertex);
-OUT.texcoord = IN.texcoord;
-OUT.color = IN.color;
-return OUT;
+	v2f OUT;
+	OUT.vertex = UnityObjectToClipPos(IN.vertex);
+	OUT.texcoord = IN.texcoord;
+	OUT.color = IN.color;
+	return OUT;
 }
 
-
+// 顶点着色器的颜色 * 片元采样后的颜色
 float4 frag (v2f i) : COLOR
 {
-float4 _MainTex_1 = tex2D(_MainTex, i.texcoord);
-float4 FinalResult = _MainTex_1;
-FinalResult.rgb *= i.color.rgb;
-FinalResult.a = FinalResult.a * _SpriteFade * i.color.a;
-return FinalResult;
+	float4 _MainTex_1 = tex2D(_MainTex, i.texcoord);
+	float4 FinalResult = _MainTex_1;
+	FinalResult.rgb *= i.color.rgb;
+	FinalResult.a = FinalResult.a * _SpriteFade * i.color.a;
+	return FinalResult;
 }
 
 ENDCG

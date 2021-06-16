@@ -78,7 +78,7 @@ OUT.color = IN.color;
 return OUT;
 }
 
-
+// 该像素的周围四个点 进行四次采样，再次叠加
 float4 OutLine(float2 uv,sampler2D source, float value, float4 color, float HDR)
 {
 
@@ -95,6 +95,7 @@ if (mainColor.a > 0.40) { mainColor = color; }
 if (addcolor.a > 0.40) { mainColor = addcolor; mainColor.a = addcolor.a; }
 return mainColor;
 }
+
 float4 frag (v2f i) : COLOR
 {
 float4 _Outline_1 = OutLine(i.texcoord,_MainTex,_Outline_Size_1,_Outline_Color_1,_Outline_HDR_1);
