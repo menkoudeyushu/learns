@@ -103,6 +103,7 @@ ret += tex2D(source, uv + float2(offsetx, offsety)) * fx*fy;
 }
 return ret / total;
 }
+
 float4 frag (v2f i) : COLOR
 {
 float4 _BlurHQPlus_1 = BlurHQ_Plus(i.texcoord,_MainTex,_BlurHQPlus_Intensity_1);

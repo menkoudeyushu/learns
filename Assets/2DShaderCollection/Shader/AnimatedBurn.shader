@@ -9,7 +9,8 @@ Shader "2DShaderCollection/AnimatedBurn"
 {
 Properties
 {
-[PerRendererData] _MainTex("Sprite Texture", 2D) = "white" {}
+[PerRendererData] 
+_MainTex("Sprite Texture", 2D) = "white" {}
 _AnimatedBurn_Offset("_AnimatedBurn_Offset", Range(-1, 1)) =0
 _AnimatedBurn_Fade("_AnimatedBurn_Fade", Range(0, 1)) =1
 _AnimatedBurn_Speed("_AnimatedBurn_Speed", Range(-2, 2)) =0.465
@@ -78,7 +79,7 @@ OUT.color = IN.color;
 return OUT;
 }
 
- // 可真鸡儿直接  用四个颜色 直接搞  result color  = a + b * cos(6.28318 * (c * gray + d)) 这个公式
+ //   用四个颜色 直接搞  result color  = a + b * cos(6.28318 * (c * gray + d)) 这个公式
 float4 Color_PreGradients(float4 rgba, float4 a, float4 b, float4 c, float4 d, float offset, float fade, float speed)
 {
 float gray = (rgba.r + rgba.g + rgba.b) / 3;
@@ -88,6 +89,7 @@ result.a = rgba.a;
 result.rgb = lerp(rgba.rgb, result.rgb, fade);
 return result;
 }
+
 
 float4 frag (v2f i) : COLOR
 {

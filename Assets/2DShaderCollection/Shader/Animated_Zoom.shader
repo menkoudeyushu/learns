@@ -9,7 +9,8 @@ Shader "2DShaderCollection/Animated_Zoom"
 {
 Properties
 {
-[PerRendererData] _MainTex("Sprite Texture", 2D) = "white" {}
+[PerRendererData]
+_MainTex("Sprite Texture", 2D) = "white" {}
 AnimatedZoomUV_AnimatedZoomUV_Zoom_1("AnimatedZoomUV_AnimatedZoomUV_Zoom_1", Range(0.2, 4)) = 1
 AnimatedZoomUV_AnimatedZoomUV_PosX_1("AnimatedZoomUV_AnimatedZoomUV_PosX_1", Range(-1, 2)) = 0.5
 AnimatedZoomUV_AnimatedZoomUV_PosY_1("AnimatedZoomUV_AnimatedZoomUV_PosY_1", Range(-1, 2)) = 0.5
@@ -95,6 +96,7 @@ uv = uv * zoom;
 uv += center;
 return uv;
 }
+
 float4 frag (v2f i) : COLOR
 {
 float2 AnimatedZoomUV_1 = AnimatedZoomUV(i.texcoord,AnimatedZoomUV_AnimatedZoomUV_Zoom_1,AnimatedZoomUV_AnimatedZoomUV_PosX_1,AnimatedZoomUV_AnimatedZoomUV_PosY_1,AnimatedZoomUV_AnimatedZoomUV_Intensity_1,AnimatedZoomUV_AnimatedZoomUV_Speed_1);

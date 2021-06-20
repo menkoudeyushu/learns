@@ -74,7 +74,7 @@ OUT.color = IN.color;
 return OUT;
 }
 
-
+// 每个像素点周围的 8个像素点 分别进行 采样， 乘以不同的权重 颜色最后叠加输出
 float4 Blur(float2 uv, sampler2D source, float Intensity)
 {
 float stepU = 0.00390625f * Intensity;

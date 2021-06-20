@@ -62,7 +62,7 @@ Material:
     m_Floats:
     - Break_Seed: 1.402
     - Break_Size: 97.8
-    - Break_Value: -0.57191825
+    - Break_Value: -0.90330637
     - _AutomaticLerp_Speed_1: 0.487
     - _BlurHQPlus_Intensity_1: 32.6
     - _Blur_Intensity_1: -0.2695522

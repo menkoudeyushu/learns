@@ -1,14 +1,9 @@
-﻿Shader "Unlit/URPAnimationTwist"
+﻿Shader "Unlit/URPColorHSV"
 {
     Properties
     { 
        _MainTex ("Texture", 2D) = "white" {}
-       AnimatedTwistUV_AnimatedTwistUV_Bend_1("AnimatedTwistUV_AnimatedTwistUV_Bend_1", Range(-1, 1)) = 0.354
-       AnimatedTwistUV_AnimatedTwistUV_PosX_1("AnimatedTwistUV_AnimatedTwistUV_PosX_1", Range(-1, 2)) = 0.5
-       AnimatedTwistUV_AnimatedTwistUV_PosY_1("AnimatedTwistUV_AnimatedTwistUV_PosY_1", Range(-1, 2)) = 0.5
-       AnimatedTwistUV_AnimatedTwistUV_Radius_1("AnimatedTwistUV_AnimatedTwistUV_Radius_1", Range(0, 1)) = 0.5
-       AnimatedTwistUV_AnimatedTwistUV_Speed_1("AnimatedTwistUV_AnimatedTwistUV_Speed_1", Range(-10, 10)) = 2.679
-       _LerpUV_Fade_1("_LerpUV_Fade_1", Range(0, 1)) = 1
+       _Blur_Intensity_1("_Blur_Intensity_1", Range(1, 16)) = 1.914
        _SpriteFade("SpriteFade", Range(0, 1)) = 1.0
     }
 
@@ -34,12 +29,7 @@
             CBUFFER_START(UnityPerMaterial)
             float4 _MainTex_ST;
             float _SpriteFade;
-            float AnimatedTwistUV_AnimatedTwistUV_Bend_1;
-            float AnimatedTwistUV_AnimatedTwistUV_PosX_1;
-            float AnimatedTwistUV_AnimatedTwistUV_PosY_1;
-            float AnimatedTwistUV_AnimatedTwistUV_Radius_1;
-            float AnimatedTwistUV_AnimatedTwistUV_Speed_1;
-            float _LerpUV_Fade_1;
+            float _Blur_Intensity_1;
             CBUFFER_END
 
             struct Attributes
@@ -66,24 +56,25 @@
             TEXTURE2D(_MainTex);
             // This macro declares the sampler for the _BaseMap texture.
             SAMPLER(sampler_MainTex);
-                    
-                 
-            float2 AnimatedTwistUV(float2 uv, float value, float posx, float posy, float radius, float speed)
+            
+            // 每个像素点周围的 8个像素点 分别进行 采样， 乘以不同的权重 颜色最后叠加输出
+            float4 Blur(float2 uv,float Intensity)
             {
-                float2 center = float2(posx, posy);
-                float2 tc = uv - center;
-                float dist = length(tc);
-                // 距离中心（旋转UV） 的半径
-                if (dist < radius)
-                {
-                float percent = (radius - dist) / radius;
-                float theta = percent * percent * 16.0 * sin(value);
-                float s = sin(theta + _Time.y * speed);
-                float c = cos(theta + _Time.y * speed);
-                tc = float2(dot(tc, float2(c, -s)), dot(tc, float2(s, c)));
-                }
-                tc += center;
-                return tc;
+            float stepU = 0.00390625f * Intensity;
+            float stepV = stepU;
+            float4 result = float4 (0, 0, 0, 0);
+            float2 texCoord = float2(0, 0);
+            texCoord = uv + float2(-stepU, -stepV); result += SAMPLE_TEXTURE2D(_MainTex,sampler_MainTex,texCoord);
+            texCoord = uv + float2(-stepU, 0); result += 2.0 * SAMPLE_TEXTURE2D(_MainTex,sampler_MainTex,texCoord);
+            texCoord = uv + float2(-stepU, stepV); result += SAMPLE_TEXTURE2D(_MainTex,sampler_MainTex,texCoord);
+            texCoord = uv + float2(0, -stepV); result += 2.0 * SAMPLE_TEXTURE2D(_MainTex,sampler_MainTex,texCoord);
+            texCoord = uv; result += 4.0 * SAMPLE_TEXTURE2D(_MainTex,sampler_MainTex,texCoord);
+            texCoord = uv + float2(0, stepV); result += 2.0 * SAMPLE_TEXTURE2D(_MainTex,sampler_MainTex, texCoord);
+            texCoord = uv + float2(stepU, -stepV); result += SAMPLE_TEXTURE2D(_MainTex,sampler_MainTex, texCoord);
+            texCoord = uv + float2(stepU, 0); result += 2.0* SAMPLE_TEXTURE2D(_MainTex,sampler_MainTex, texCoord);
+            texCoord = uv + float2(stepU, -stepV); result += SAMPLE_TEXTURE2D(_MainTex,sampler_MainTex, texCoord);
+            result = result * 0.0625;
+            return result;
             }
 
             Varyings vert(Attributes IN)
@@ -102,15 +93,13 @@
             {
                 // The SAMPLE_TEXTURE2D marco samples the texture with the given
                 // sampler.
-                float2 AnimatedTwistUV_1 = AnimatedTwistUV(IN.texcoord,AnimatedTwistUV_AnimatedTwistUV_Bend_1,AnimatedTwistUV_AnimatedTwistUV_PosX_1,AnimatedTwistUV_AnimatedTwistUV_PosY_1,AnimatedTwistUV_AnimatedTwistUV_Radius_1,AnimatedTwistUV_AnimatedTwistUV_Speed_1);
-                IN.texcoord = lerp(IN.texcoord,AnimatedTwistUV_1,_LerpUV_Fade_1);
-                float4 _MainTex_1 = SAMPLE_TEXTURE2D(_MainTex,sampler_MainTex,IN.texcoord);
-                float4 FinalResult = _MainTex_1;
-                FinalResult.rgb *= IN.color.rgb;
+                float4 _Blur_1 = Blur(IN.texcoord,_Blur_Intensity_1);
+                float4 FinalResult = _Blur_1;
+                FinalResult.rgb *=IN.color.rgb;
                 FinalResult.a = FinalResult.a * _SpriteFade * IN.color.a;
                 return FinalResult;
             }
             ENDHLSL
         }
-    }
+    }  
 }
